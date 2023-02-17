@@ -1,0 +1,79 @@
+.title {
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.title h1 {
+  font-size: 3.5rem;
+  color: #ff4081;
+  text-align: left;
+}
+.title p {
+  text-align: left;
+}
+
+/*  */
+.cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.cursos div {
+  display: flex;
+  gap: 3rem;
+}
+.cursos-imgens {
+  width: 16rem;
+  height: min-content;
+  padding: 0.5rem;
+}
+
+/*  */
+.curso-card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+}
+.curso-title {
+  font-size: 1.5rem;
+  color: #ff4081;
+  text-align: left;
+}
+.curso-imagem {
+  display: none;
+  width: 15rem;
+}
+.curso-info {
+  width: fit-content;
+  text-align: left;
+  word-break: keep-all;
+}
+.button {
+  padding: 15px;
+  width: fit-content;
+  border: 2px solid;
+  border-radius: 5rem;
+  border-color: #2e948a;
+  background-color: #2e948a;
+  color: white;
+}
+
+/*  */
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 2.5rem;
+  }
+  .cursos {
+    margin-top: 0;
+  }
+  .curso-imagem {
+    display: flex;
+  }
+  .cursos-imgens {
+    display: none;
+  }
+}

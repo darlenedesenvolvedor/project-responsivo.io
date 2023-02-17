@@ -1,0 +1,91 @@
+body {
+  display: grid;
+  gap: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: #ff4081;
+  padding: 1rem;
+}
+.paragraph {
+  font-size: 2rem;
+}
+
+/*  */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+#foto-post img,
+#foto-texto img {
+  padding: 2rem;
+  width: auto;
+  height: auto;
+}
+
+/*  */
+.cursos {
+  background: #f7f7f7;
+}
+
+.cursos > section {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+.cursos > section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-break: normal;
+  gap: 1rem;
+}
+.cursos img {
+  width: 10rem;
+  height: 12rem;
+}
+.cursos button {
+  padding: 0.5rem;
+  width: 10rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  border-color: #ff4081;
+  background-color: #ff4081;
+  color: white;
+}
+
+/* Visual Mobile*/
+@media(max-width: 768px){
+  header .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .container ul {
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .title, .paragraph{
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  #foto-post img,
+  #foto-texto img {
+    width: 100%;
+  }
+}

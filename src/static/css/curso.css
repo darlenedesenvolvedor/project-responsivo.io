@@ -1,0 +1,137 @@
+body {
+  display: grid;
+  gap: 2rem;
+}
+
+/* BANNER */
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  gap: 0.5rem;
+  font-family: "Ubuntu";
+}
+
+.banner > aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #ff4081;
+  margin: auto;
+  font-weight: bold;
+}
+
+.banner > aside > h1 {
+  font-size: 3rem;
+  text-align: left;
+  color: #ff4081;
+  padding-left: 30px;
+}
+
+.banner > aside > p {
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.banner > img {
+  width: 25rem;
+  height: auto;
+  margin: auto;
+}
+
+/*  */
+.background {
+  background-color: #f6f6f6;
+}
+
+/*  */
+.cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.cursos div {
+  display: flex;
+  gap: 3rem;
+}
+.cursos-imagens {
+  width: auto;
+  height: min-content;
+  padding: 0.5rem;
+}
+
+/*  */
+.curso-card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+}
+.curso-title {
+  font-size: 1.5rem;
+  color: #ff4081;
+  text-align: left;
+}
+.curso-imagem {
+  display: none;
+  width: 15rem;
+}
+.curso-info {
+  width: fit-content;
+  text-align: left;
+  word-break: keep-all;
+}
+.button {
+  padding: 15px;
+  width: fit-content;
+  border: 2px solid;
+  border-radius: 5rem;
+  border-color: #2e948a;
+  background-color: #2e948a;
+  color: white;
+}
+
+/* Visual Mobile */
+@media (max-width: 768px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner  p {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .banner > img{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .title h1 {
+    font-size: 2.5rem;
+  }
+  .cursos div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .cursos {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .curso-imagem {
+    display: flex;
+  }
+  .cursos-imagens {
+    display: none;
+  }
+}

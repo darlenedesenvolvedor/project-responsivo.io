@@ -1,0 +1,98 @@
+* {
+  text-align: center;
+  font-family: 'Ubuntu';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #141414;
+  font-size: 1rem;
+}
+
+/* desktop */
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+header{
+  background-color: #2e948a;
+
+}
+header nav{
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > nav > img{
+  width: 10rem;
+  height: auto;
+}
+header > nav > ul {
+  display: flex;
+  gap: 2rem;
+}
+header > nav > ul > a{
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2e948a;
+}
+
+footer > nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > nav > img {
+  width: 10rem;
+  height: auto;
+}
+
+footer > nav > ul > a {
+  color: white;
+  text-decoration: none;
+}
+
+footer > nav > div {
+  display: grid;
+  gap: 1rem;
+}
+footer > nav > div > button {
+  padding: 7px;
+  width: 15rem;
+  border: 1px solid;
+  border-radius: 5rem;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+footer > nav > ul {
+  display: grid;
+  gap: 0.5rem;
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: auto;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* mobile */
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
+    margin: auto;
+  }
+}
