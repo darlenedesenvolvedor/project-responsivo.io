@@ -101,9 +101,21 @@ body {
 
 /* Visual Mobile */
 @media (max-width: 768px) {
+  header .container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .container ul {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
   .banner {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
   .banner  p {
     display: flex;
@@ -116,22 +128,24 @@ body {
     width: 90%;
   }
   .title h1 {
-    font-size: 2.5rem;
+    width: 90%;
   }
   .cursos div{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
   }
   .cursos {
-    margin-top: 0;
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
   .curso-imagem {
     display: flex;
+    flex-direction: column;
   }
   .cursos-imagens {
-    display: none;
+    display:none;
+    flex-direction: column;
   }
 }
