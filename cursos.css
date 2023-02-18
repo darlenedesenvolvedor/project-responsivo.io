@@ -68,7 +68,8 @@
   border-color: #2e948a;
   background-color: #2e948a;
   color: white;
-
+  position: absolute;
+  left: 320px;
 }
 
 
@@ -101,5 +102,10 @@
 
     .cursos-imgens {
       display: none;
+    }
+    .button {
+      display: flex;
+      flex-direction: column;
+      left: 50px;
     }
   }

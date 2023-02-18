@@ -89,15 +89,6 @@ body {
   text-align: left;
   word-break: keep-all;
 }
-.button {
-  padding: 15px;
-  width: fit-content;
-  border: 2px solid;
-  border-radius: 5rem;
-  border-color: #2e948a;
-  background-color: #2e948a;
-  color: white;
-}
 
 /* Visual Mobile */
 @media (max-width: 768px) {

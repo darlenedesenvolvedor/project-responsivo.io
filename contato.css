@@ -77,6 +77,7 @@
     }
     .form input{
         width: 100%;
+        left: 10px;
     }
     .contatoparte1-3 img{
         display: flex;
